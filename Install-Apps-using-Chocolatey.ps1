@@ -17,8 +17,8 @@ choco install dropbox -y
 # Office Apps
 choco install Office365ProPlus -y
 choco install microsoft-teams.install -y
-choco install skype -y
-choco install zoom -y
+#choco install skype -y
+#choco install zoom -y
 #choco install powerbi -y
 
 # Dev
@@ -34,6 +34,7 @@ choco install streamdeck -y
 
 # Gaming
 choco install -y steam
+choco install -y epicgameslauncher
 
 # Additional Tools
 choco install keepass -y
@@ -53,7 +54,7 @@ choco install veeam-agent -y
 choco install discord -y 
 
 # Misc
-#choco install spotify --ignore-checksums -y
+choco install spotify --ignore-checksums -y
 
 # Device drivers etc
 choco install intel-dsa -y 
